@@ -4,11 +4,7 @@ header {
   left:0;
   position: fixed;
   display: table;
-  z-index: 1;
-}
-
-header a {
-  text-decoration: none;
+  z-index: 100;
 }
 
 header nav {
@@ -49,7 +45,7 @@ header .logo {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   header .logo {
     left: 40px;
   }

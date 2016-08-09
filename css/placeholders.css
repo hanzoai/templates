@@ -7,8 +7,20 @@
   box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
 }
 
+/* Buttons and Basic Controls */
+
 .button {
   transition: all .3s ease-out;
+}
+
+a:hover {
+  color: #e35c38;
+}
+
+.button {
+  background-color: #dc3023;
+  color: #FFF !important;
+  text-shadow: none;
 }
 
 /* Images */
@@ -25,11 +37,23 @@
   background-size: cover;
 }
 
-/* Misc */
+/* Body */
 body {
   background: #FFF;
 }
 
+/* Header */
+header {
+  color: #FFF;
+  background-color: rgba(0,0,0,0.2);
+}
+
+header a {
+  color: #FFF;
+  text-shadow: 0 0 10px black;
+}
+
+/* Hero */
 .hero {
   color: #FFF;
 }
@@ -54,24 +78,90 @@ body {
   border-width: 1px ;
 }
 
-.hero.parallax
+/* List */
 
-header {
+.list li {
+  height: 80px;
+}
+
+.list.bottom .title {
+  padding-bottom: 40px;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.list.bottom .image {
+  background-image: url(../img/list2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.list.bottom li {
+  width: 31%;
+  margin: 1%;
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+@media (max-width: 800px) {
+  .list.bottom li {
+    width: 98%;
+  }
+}
+
+.list li .fa {
+  font-size: 3em;
+  padding: 15px 35px;
+  position: absolute;
+}
+
+.list li p {
+  padding-left: 80px;
+}
+
+.list li:last-child p {
+  padding-left: 100px;
+}
+
+.list.right .info, .list.left .info {
+  background-color: #000;
   color: #FFF;
-  background-color: rgba(0,0,0,0.2);
+  display: table;
 }
 
-header a {
-  color: #FFF;
-  text-shadow: 0 0 10px black;
+.list.right .image {
+  background-image: url(../img/list1.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-a:hover {
-  color: #e35c38;
+.list.left .image {
+  background-image: url(../img/list3.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-.button {
-  background-color: #dc3023;
-  color: #FFF !important;
-  text-shadow: none;
+.list.right li, .list.left li {
+  width: 98%;
+  margin: 1%;
+}
+
+.list.right li:hover, .list.left li:hover {
+  box-shadow: 0 2px 5px 4px rgba(255,255,255,0.16),0 2px 10px 4px rgba(255,255,255,0.12);
+  transition: all .3s ease-out;
+}
+
+.list.right li p, .list.left li p {
+  padding-left: 100px;
+}
+
+.quote {
+  background-image: url(../img/quote.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.quote blockquote {
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }

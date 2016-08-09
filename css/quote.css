@@ -1,0 +1,29 @@
+.quote blockquote:before {
+  content: open-quote;
+  font-size: 4em;
+  line-height: .1em;
+  margin-right: .25em;
+  vertical-align: -.4em;
+}
+
+.quote blockquote {
+  padding: 50px;
+  font-size: 1.25em;
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+
+.quote blockquote:after {
+  content: close-quote;
+  font-size: 0;
+}
+
+.quote blockquote .attribution {
+  display: block;
+  position: absolute;
+  font-size: .5em;
+  right: 50px;
+}
+
+

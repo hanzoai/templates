@@ -1,6 +1,7 @@
 .demo-controls {
   position: absolute;
   width: 100vw;
+  z-index: 2000;
 }
 
 .demo-before, .demo-after {
@@ -25,4 +26,10 @@
 
 .demo-gallery {
   transition: all .3s ease-out;
+  display: block;
+  display: table;
+}
+
+body {
+  overflow-x: hidden;
 }
