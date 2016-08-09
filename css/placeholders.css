@@ -99,6 +99,10 @@ header a {
 
 /* List */
 
+.list {
+  background-color: black;
+}
+
 .list li {
   height: 80px;
 }
@@ -163,11 +167,16 @@ header a {
 .list.right li, .list.left li {
   width: 98%;
   margin: 1%;
+  border: 1px solid transparent;
 }
 
 .list.right li:hover, .list.left li:hover {
-  box-shadow: 0 2px 5px 4px rgba(255,255,255,0.16),0 2px 10px 4px rgba(255,255,255,0.12);
+  border: 1px solid #FFF;
   transition: all .3s ease-out;
+}
+
+.list.right li:hover .fa, .list.left li:hover .fa {
+  color: #dc3023;
 }
 
 .list.right li p, .list.left li p {
@@ -246,6 +255,10 @@ header a {
 }
 
 /* Grid */
+
+.grid {
+  background-color: black;
+}
 
 .grid .image1 {
   background-image: url(../img/grid1.jpg);
