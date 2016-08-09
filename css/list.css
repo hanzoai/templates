@@ -48,9 +48,11 @@
 
 .list.left .image, .list.left .info {
   float: right;
+  min-height: 600px;
 }
 .list.right .image, .list.right .info {
   float: left;
+  min-height: 600px;
 }
 
 .list.right .image, .list.left .image {
@@ -68,6 +70,7 @@
 @media (max-width: 800px) {
   .list.right .image, .list.left .image, .list.right .info, .list.left .info {
     width: 100%;
+    height: auto;
   }
   .list.left .info, .list.right .info {
     height: auto;

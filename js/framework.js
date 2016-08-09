@@ -23,6 +23,18 @@ $(function(){
     e.stopPropagation();
     return false;
   })
+
+  $('.button.call-to-action').on('click', function(e){
+    var $nextSection = $('#call-to-action');
+
+    if ($nextSection.length != 0) {
+      $("html, body").animate({ scrollTop: $nextSection.offset().top }, 1000);
+    }
+
+    e.preventDefault();
+    e.stopPropagation();
+    return false;
+  })
 });
 
 $(window).load(function(){
@@ -30,5 +42,8 @@ $(window).load(function(){
     $(this).hide();
     $('body').css('overflow', '');
   });
+
+  /* remove JQuery Mobile Loader thing */
+  $('.ui-loader').remove();
 })
 

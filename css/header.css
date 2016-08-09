@@ -31,12 +31,7 @@ header .call-to-action {
 }
 
 header .logo {
-  width: 40px;
-  height: 40px;
-  left: 50%;
-  margin-left: -20px;
   top: 10px;
-  position: absolute;
 }
 
 @media (max-width: 800px) {

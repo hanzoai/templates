@@ -9,7 +9,7 @@ $(function(){
 
         var yOffset = 50 + 100 * ((scrollTop-offset.top)/$el.height());
 
-        $el.css('background-position-y', yOffset + '%');
+        $el.css('background-position', '50% ' + yOffset + '%');
         scheduled = false;
       })
       scheduled = true;
