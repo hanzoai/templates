@@ -128,7 +128,8 @@ header a {
 
 @media (max-width: 800px) {
   .list.bottom li {
-    width: 98%;
+    width: 100%;
+    margin: 10px 0;
   }
 }
 
