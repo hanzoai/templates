@@ -1,0 +1,20 @@
+.hero.parallax {
+  background-attachment: fixed;
+}
+
+.hero.parallax .foreground {
+  content: '';
+  background-attachment: fixed;
+  background-position: center;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.hero.parallax .content {
+  text-align: center;
+  margin-top: 60vh;
+}
