@@ -56,15 +56,16 @@
 }
 
 .list.right .image, .list.left .image {
-  width: 50%;
+  width: 45%;
   height: 100%;
 }
 
 .list.left .info, .list.right .info {
-  width: 50%;
+  width: 55%;
   height: 100%;
   padding: 40px;
   text-align: left;
+  max-width: 600px;
 }
 
 @media (max-width: 800px) {

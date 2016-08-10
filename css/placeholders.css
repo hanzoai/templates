@@ -141,6 +141,7 @@ header a {
 
 .list li p {
   padding-left: 80px;
+  padding-right: 20px;
 }
 
 .list li:last-child p {
@@ -171,12 +172,15 @@ header a {
   border: 1px solid transparent;
 }
 
-.list.right li:hover, .list.left li:hover {
-  border: 1px solid #FFF;
+.list li {
   transition: all .3s ease-out;
 }
 
-.list.right li:hover .fa, .list.left li:hover .fa {
+.list.right li:hover, .list.left li:hover {
+  border: 1px solid #FFF;
+}
+
+.list li:hover .fa, .list li:hover .fa {
   color: #dc3023;
 }
 
@@ -325,6 +329,102 @@ header a {
   height: 25vw;
 }
 
+/* Hover more */
+.grid.hover-more-example .item {
+  width: 25vw;
+  height: 25vw;
+  clip: rect(0px, 25vw, 25vw, 0px);
+}
+
+@media (max-width: 1000px) {
+  .grid.hover-more-example .item {
+    width: 50vw;
+    height: 50vw;
+    clip: rect(0px, 50vw, 50vw, 0px);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid.hover-more-example .item {
+    width: 100vw;
+    height: 100vw;
+    clip: rect(0px, 100vw, 100vw, 0px);
+  }
+}
+
+.grid.hover-more-example .hover-image1:after {
+  background-image: url(../img/hovermore1.jpg);
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.grid.hover-more-example .hover-image2:after {
+  background-image: url(../img/hovermore2.jpg);
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.grid.hover-more-example .hover-image3:after {
+  background-image: url(../img/hovermore3.jpg);
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.grid.hover-more-example .hover-image4:after {
+  background-image: url(../img/hovermore4.jpg);
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.grid.hover-more-example .item:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  transition: transform 1s ease-in-out;
+}
+
+.grid.hover-more-example .item:before {
+  z-index: 1;
+}
+
+.grid.hover-more-example .item {
+  z-index: 2;
+}
+
+.grid.hover-more-example .item:after {
+  z-index: 0;
+}
+
+.grid.hover-more-example .item:hover:after {
+  transform: scale(1.25, 1.25);
+}
+
+.grid.hover-more-example .content {
+  padding: 30px;
+}
+
+.hover-more {
+  overflow: hidden;
+  color: #FFF;
+}
+
+.hover-more:before {
+  content: '';
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.hover-more:hover:before {
+  background-color: rgba(0,0,0,0.8);
+}
+
 /* Sign Up */
 .signup {
   background-image: url(../img/signup.jpg);
@@ -333,8 +433,8 @@ header a {
 }
 
 .signup .content {
-  color: #000;
-  background-color: rgba(255,255,255,0.5);
+  color: #FFF;
+  background-color: rgba(0,0,0,0.8);
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   margin-top:100px;
   margin-bottom:100px;
@@ -372,8 +472,6 @@ header a {
     margin-top: 10px;
   }
 }
-
-
 
 /* Footer */
 
