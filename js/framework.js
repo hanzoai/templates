@@ -15,8 +15,10 @@ $(function(){
     var $section = $($(this).parents('section, .block').last());
     var $nextSection = $($section).next();
 
+    var offset = ($(window).height() - $nextSection.height()) /2;
+
     if ($nextSection.length != 0) {
-      $("html, body").animate({ scrollTop: $nextSection.offset().top }, 500);
+      $("html, body").animate({ scrollTop: $nextSection.offset().top - offset }, 500);
     }
 
     e.preventDefault();
@@ -27,8 +29,10 @@ $(function(){
   $('.button.call-to-action').on('click', function(e){
     var $nextSection = $('#call-to-action');
 
+    var offset = ($(window).height() - $nextSection.height()) /2;
+
     if ($nextSection.length != 0) {
-      $("html, body").animate({ scrollTop: $nextSection.offset().top }, 1000);
+      $("html, body").animate({ scrollTop: $nextSection.offset().top - offset }, 1000);
     }
 
     e.preventDefault();
