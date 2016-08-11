@@ -72,10 +72,10 @@
 @media (max-width: 800px) {
   .list.right .image, .list.left .image, .list.right .info, .list.left .info {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
   .list.left .info, .list.right .info {
-    height: auto;
+    height: 100%;
   }
 }
 
