@@ -58,6 +58,7 @@
 .list.right .image, .list.left .image {
   width: 45%;
   height: 100%;
+  box-sizing: border-box;
 }
 
 .list.left .info, .list.right .info {

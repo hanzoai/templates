@@ -15,9 +15,9 @@ $(function(){
     var $section = $($(this).parents('section, .block').last());
     var $nextSection = $($section).next();
 
-    var offset = ($(window).height() - $nextSection.height()) /2;
+    if ($nextSection.length !== 0) {
+      var offset = ($(window).height() - $nextSection.height()) /2;
 
-    if ($nextSection.length != 0) {
       $("html, body").animate({ scrollTop: $nextSection.offset().top - offset }, 500);
     }
 
@@ -29,9 +29,9 @@ $(function(){
   $('.button.call-to-action').on('click', function(e){
     var $nextSection = $('#call-to-action');
 
-    var offset = ($(window).height() - $nextSection.height()) /2;
+    if ($nextSection.length !== 0) {
+      var offset = ($(window).height() - $nextSection.height()) /2;
 
-    if ($nextSection.length != 0) {
       $("html, body").animate({ scrollTop: $nextSection.offset().top - offset }, 1000);
     }
 
@@ -50,4 +50,3 @@ $(window).load(function(){
   /* remove JQuery Mobile Loader thing */
   $('.ui-loader').remove();
 })
-

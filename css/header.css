@@ -3,8 +3,8 @@ header {
   top:0;
   left:0;
   position: fixed;
-  display: table;
   z-index: 100;
+  min-height: 60px;
 }
 
 header nav {

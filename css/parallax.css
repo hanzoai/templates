@@ -3,7 +3,6 @@
 }
 
 .parallax .foreground {
-  content: '';
   background-attachment: fixed;
   background-position: center;
   display: block;
@@ -12,4 +11,14 @@
   position: absolute;
   left: 0;
   top: 0;
+}
+
+@media (max-width: 800px) {
+  .parallax {
+    background-attachment: initial;
+  }
+
+  .parallax .foreground {
+    background-attachment: initial;
+  }
 }

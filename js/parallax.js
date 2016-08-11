@@ -3,13 +3,17 @@ $(function(){
   $(window).on('scroll touchmove mousewheel', function(){
     if (!scheduled) {
       requestAnimationFrame(function(){
-        var $el = $('.parallax .foreground');
+        var $els = $('.parallax .foreground');
         var scrollTop = $(this).scrollTop();
-        var offset = $el.offset();
 
-        var yOffset = 50 + 100 * ((scrollTop-offset.top)/$el.height());
+        $els.each(function() {
+          var $el = $(this);
+          var offset = $el.offset();
 
-        $el.css('background-position', '50% ' + yOffset + '%');
+          var yOffset = 50 + 100 * ((scrollTop-offset.top)/$el.height());
+
+          $el.css('background-position', '50% ' + yOffset + '%');
+        })
         scheduled = false;
       })
       scheduled = true;

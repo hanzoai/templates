@@ -37,6 +37,10 @@ a:hover {
   background-image: url(../img/hero.jpeg);
 }
 
+.hero.video {
+  background-image: url(../img/hero-video.jpeg);
+}
+
 .hero.parallax {
   background-image: url(../img/hero-parallax-background.jpg);
 }
