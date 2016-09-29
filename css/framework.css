@@ -11,6 +11,10 @@ body {
   box-sizing: border-box;
 }
 
+.block, section {
+  display: table;
+}
+
 .full {
   background-size: cover;
   background-position: center;

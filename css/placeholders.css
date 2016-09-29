@@ -50,6 +50,10 @@ a:hover {
   background-size: cover;
 }
 
+.hero.informatic .content .image {
+  background-image: url(../img/hero-informatic.jpg);
+}
+
 .hero .summary-down {
   background: rgba( 255, 255, 255, 0.3 );
   color: #FFF;
