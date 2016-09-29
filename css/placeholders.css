@@ -227,10 +227,6 @@ header a {
   transition: all .3s ease-out;
 }
 
-.gallery-controls .gallery-item.active {
-  background: rgba( 0, 0, 0, 0.3 );
-}
-
 .gallery .image1 {
   background-image: url(../img/gallery1.jpg);
   background-position: center;

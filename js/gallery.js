@@ -1,8 +1,8 @@
 $(function() {
+  var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
   var controlsHTML = '<div class="gallery-controls"><div class="gallery-counter"></div><div class="gallery-before button">&lt</div><div class="gallery-after button">&gt</div></div>';
   var itemHTML = '<div class="gallery-item"></div>';
 
-  $('body').width('100vw').css('overflow-x', 'hidden');
   var $galleries =  $('.gallery')
   $galleries.each(function() {
     var $gallery = $(this);
@@ -12,23 +12,40 @@ $(function() {
 
     $gallery.append($(controlsHTML));
 
-    $gallery.width(blockTotal * 100 + 'vw');
-    $blocks.css('float', 'left')
-
     var $controls = $gallery.find('.gallery-controls');
     var $before = $gallery.find('.gallery-before');
     var $after = $gallery.find('.gallery-after');
     var $counter = $gallery.find('.gallery-counter');
 
-    for (var i = 0; i < blockTotal; i++) {
-      $counter.append($(itemHTML));
+    if (iOS) {
+      for (var i = 0; i < blockTotal; i++) {
+        if(i > 0) {
+          $($blocks[i]).css('opacity', '0');
+        }
+        $counter.append($(itemHTML));
+      }
+    } else {
+      for (var i = 0; i < blockTotal; i++) {
+        $($blocks[i]).css('transform', 'translate3d(' + (i * 100) + '%, 0, 0)');
+        $counter.append($(itemHTML));
+      }
     }
 
     var $items = $counter.children('.gallery-item');
 
     var updateFn = function() {
-      $gallery.css('left', '-' + (100 * blockIndex) + '%');
-      $controls.css('transform', 'translateX(' + (100 * blockIndex) + '%)');
+      // $gallery.css('left', '-' + (100 * blockIndex) + '%');
+      // $controls.css('transform', 'translateX(' + (100 * blockIndex) + '%)');
+      if (iOS) {
+        for (var i = 0; i < blockTotal; i++) {
+          $($blocks[i]).css('opacity', 0);
+        }
+        $($blocks[blockIndex]).css('opacity', 1);
+      } else {
+        for (var i = 0; i < blockTotal; i++) {
+          $($blocks[i]).css('transform', 'translate3d(' + ((i - blockIndex) * 100) + '%, 0, 0)');
+        }
+      }
       $before.css('opacity', 1);
       $after.css('opacity', 1);
       if (blockIndex <= 0) {

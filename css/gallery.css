@@ -25,14 +25,28 @@
 }
 
 .gallery {
-  transition: all .6s ease-out;
-  display: block;
   display: table;
 }
 
+.gallery .block,
+.gallery section
+{
+  top:0;
+  left: 0;
+  position: absolute;
+  transition: transform 1000ms ease-out, opacity 1000ms ease-out;
+}
+
+.gallery .block:first-child,
+.gallery section:first-child
+{
+  position: relative;
+}
+
 .gallery-controls {
-  transition: all .6s ease-out;
   height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .gallery-counter {
@@ -53,6 +67,6 @@
   cursor: pointer;
 }
 
-body {
-  overflow-x: hidden;
+.gallery-controls .gallery-item.active {
+  background: rgba( 0, 0, 0, 0.3 );
 }
