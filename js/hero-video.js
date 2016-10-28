@@ -3,7 +3,7 @@ $(function(){
 
   $('.hero.video .play').on('click', function(e){
     var $hero = $(this).closest('.hero');
-    var $modal = $hero.find('.modal');
+    var $modal = $hero.find('.video-modal');
     var $iframe = $modal.find('iframe');
 
     var src = $hero.attr('data-src');
@@ -15,9 +15,9 @@ $(function(){
     return false;
   });
 
-  $('.modal-close').on('click', function(e){
+  $('.hero.video .modal-close').on('click', function(e){
     var $modal = $(this).closest('.modal');
-    $modal.addClass('hidden');
+    // $modal.addClass('hidden');
     var $iframe = $modal.find('iframe');
     $iframe.attr('src', '');
   })

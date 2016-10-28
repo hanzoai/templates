@@ -1,4 +1,6 @@
 /* Paul Irish - raf polyfill */
+window.loads = 0;
+
 (function() {
     var lastTime = 0;
     var vendors = ['webkit', 'moz'];
@@ -26,6 +28,14 @@
 
 $(function(){
   // Modals
+  $('.modal-open').on('click', function(e){
+    var $modalOpen = $(this);
+    var modalSelector = $modalOpen.attr('data-modal-selector');
+    var $modal = $(modalSelector).first();
+
+    $modal.removeClass('hidden');
+  });
+
   $('.modal').on('scroll touchmove mousewheel', function(e){
     e.preventDefault();
     e.stopPropagation();
@@ -44,7 +54,7 @@ $(function(){
     if ($nextSection.length !== 0) {
       var offset = ($(window).height() - $nextSection.height()) /2;
 
-      $("html, body").animate({ scrollTop: $nextSection.offset().top - offset }, 500);
+      $('html, body').animate({ scrollTop: $nextSection.offset().top - offset }, 500);
     }
 
     e.preventDefault();
@@ -68,11 +78,16 @@ $(function(){
 });
 
 $(window).load(function(){
-  $('.loader').fadeTo(1000, 0, function() {
-    $(this).hide();
-    $('body').css('overflow', '');
-  });
+  var intervalId = setInterval(function(){
+    if (window.loads == 0) {
+      clearInterval(intervalId)
+      $('.loader').fadeTo(1000, 0, function() {
+        $(this).hide();
+        $('body').css('overflow', '');
+      });
 
-  /* remove JQuery Mobile Loader thing */
-  $('.ui-loader').remove();
+      /* remove JQuery Mobile Loader thing */
+      $('.ui-loader').remove();
+    }
+  }, 16)
 })

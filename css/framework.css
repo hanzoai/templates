@@ -77,6 +77,8 @@ a {
   display: none;
 }
 
+/* Modals */
+
 .modal {
   position: fixed;
   left: 0;
@@ -110,10 +112,9 @@ a {
 
 blockquote:before {
   content: open-quote;
-  font-size: 4rem;
-  line-height: .1em;
-  margin-right: .25em;
-  vertical-align: -.4em;
+  font-size: 2rem;
+  line-height: .05em;
+  vertical-align: -.2em;
 }
 
 blockquote {
@@ -126,7 +127,9 @@ blockquote {
 
 blockquote:after {
   content: close-quote;
-  font-size: 0;
+  font-size: 2rem;
+  line-height: .05em;
+  vertical-align: -.2em;
 }
 
 blockquote .attribution {
