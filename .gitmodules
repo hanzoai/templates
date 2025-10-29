@@ -1,0 +1,105 @@
+[submodule "apps/hygge"]
+	path = apps/hygge
+	url = git@github.com:hanzo-apps/template-hygge.git
+[submodule "apps/gleam"]
+	path = apps/gleam
+	url = git@github.com:hanzo-apps/template-gleam.git
+[submodule "apps/gallery2"]
+	path = apps/gallery2
+	url = git@github.com:hanzo-apps/template-gallery2.git
+[submodule "apps/gallery"]
+	path = apps/gallery
+	url = git@github.com:hanzo-apps/template-gallery.git
+[submodule "apps/forge"]
+	path = apps/forge
+	url = git@github.com:hanzo-apps/template-forge.git
+[submodule "apps/folio"]
+	path = apps/folio
+	url = git@github.com:hanzo-apps/template-folio.git
+[submodule "apps/edge"]
+	path = apps/edge
+	url = git@github.com:hanzo-apps/template-edge.git
+[submodule "apps/drive"]
+	path = apps/drive
+	url = git@github.com:hanzo-apps/template-drive.git
+[submodule "apps/construct"]
+	path = apps/construct
+	url = git@github.com:hanzo-apps/template-construct.git
+[submodule "apps/circle"]
+	path = apps/circle
+	url = git@github.com:hanzo-apps/template-circle.git
+[submodule "apps/cipher"]
+	path = apps/cipher
+	url = git@github.com:hanzo-apps/template-cipher.git
+[submodule "apps/cipher-react"]
+	path = apps/cipher-react
+	url = git@github.com:hanzo-apps/template-cipher-react.git
+[submodule "apps/cipher-html"]
+	path = apps/cipher-html
+	url = git@github.com:hanzo-apps/template-cipher-html.git
+[submodule "apps/chat-template"]
+	path = apps/chat-template
+	url = git@github.com:hanzo-apps/template-chat-template.git
+[submodule "apps/catalyst"]
+	path = apps/catalyst
+	url = git@github.com:hanzo-apps/template-catalyst.git
+[submodule "apps/canvas"]
+	path = apps/canvas
+	url = git@github.com:hanzo-apps/template-canvas.git
+[submodule "apps/blog-platform"]
+	path = apps/blog-platform
+	url = git@github.com:hanzo-apps/template-blog-platform.git
+[submodule "apps/blocks"]
+	path = apps/blocks
+	url = git@github.com:hanzo-apps/template-blocks.git
+[submodule "apps/beta"]
+	path = apps/beta
+	url = git@github.com:hanzo-apps/template-beta.git
+[submodule "apps/analytics-dashboard"]
+	path = apps/analytics-dashboard
+	url = git@github.com:hanzo-apps/template-analytics-dashboard.git
+[submodule "apps/ai-chat-interface"]
+	path = apps/ai-chat-interface
+	url = git@github.com:hanzo-apps/template-ai-chat-interface.git
+[submodule "apps/video-streaming"]
+	path = apps/video-streaming
+	url = git@github.com:hanzo-apps/template-video-streaming.git
+[submodule "apps/social-feed"]
+	path = apps/social-feed
+	url = git@github.com:hanzo-apps/template-social-feed.git
+[submodule "apps/markdown-editor"]
+	path = apps/markdown-editor
+	url = git@github.com:hanzo-apps/template-markdown-editor.git
+[submodule "apps/kanban-board"]
+	path = apps/kanban-board
+	url = git@github.com:hanzo-apps/template-kanban-board.git
+[submodule "apps/crypto-portfolio"]
+	path = apps/crypto-portfolio
+	url = git@github.com:hanzo-apps/template-crypto-portfolio.git
+[submodule "apps/ecommerce-storefront"]
+	path = apps/ecommerce-storefront
+	url = git@github.com:hanzo-apps/template-ecommerce-storefront.git
+[submodule "apps/changelog"]
+	path = apps/changelog
+	url = git@github.com:hanzo-apps/template-changelog.git
+[submodule "apps/portfolio"]
+	path = apps/portfolio
+	url = git@github.com:hanzo-apps/template-portfolio.git
+[submodule "apps/blog"]
+	path = apps/blog
+	url = git@github.com:hanzo-apps/template-blog.git
+[submodule "apps/startup"]
+	path = apps/startup
+	url = git@github.com:hanzo-apps/template-startup.git
+[submodule "apps/mobile"]
+	path = apps/mobile
+	url = git@github.com:hanzo-apps/template-mobile.git
+[submodule "apps/devtool"]
+	path = apps/devtool
+	url = git@github.com:hanzo-apps/template-devtool.git
+[submodule "apps/analytics"]
+	path = apps/analytics
+	url = git@github.com:hanzo-apps/template-analytics.git
+[submodule "apps/saas"]
+	path = apps/saas
+	url = git@github.com:hanzo-apps/template-saas.git
