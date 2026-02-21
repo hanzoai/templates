@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+.playwright-mcp
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+GROK.md
+QWEN.md
+*.zip

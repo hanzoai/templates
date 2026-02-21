@@ -1,12 +1,10 @@
 # Hanzo Templates Repository
 
 > **Premium UI/UX Template Collection**
-> **Last Updated**: October 29, 2025
-> **Status**: 100% Complete - All 63 Templates Documented ✅
+> **Last Updated**: October 20, 2025
+> **Status**: 100% Complete - All 66 Templates Documented ✅
 
-A comprehensive collection of **63 premium templates** for modern web development, including dashboards, landing pages, portfolios, e-commerce, social media, and specialized applications.
-
-> **Note**: 3 design-only templates (Temple, Trustify, RestoQ) moved to `~/work/templates/design-only/` - these are Figma/PSD files without runnable code.
+A comprehensive collection of **66 premium templates** for modern web development, including dashboards, landing pages, portfolios, e-commerce, social media, and specialized applications.
 
 ---
 
@@ -104,11 +102,11 @@ See [TEMPLATE_USAGE_GUIDE.md](./TEMPLATE_USAGE_GUIDE.md) for detailed instructio
 
 ✅ **100% Complete Documentation**
 
-- **Total Templates**: 63 directories (100% catalogued)
-- **Captured Screenshots**: 63 (100% coverage ✅)
-- **Coded Templates**: 54 (85.7%)
-- **Production-Ready**: 46 templates (73.0%)
-- **Design Files**: 3 Figma templates (+ 3 in design-only directory)
+- **Total Templates**: 66 directories (100% catalogued)
+- **Captured Screenshots**: 66 (100% coverage ✅)
+- **Coded Templates**: 54 (81.8%)
+- **Production-Ready**: 46 templates (69.7%)
+- **Design Files**: 6 Figma templates
 - **Asset Packs**: 2 collections
 
 ### By Framework

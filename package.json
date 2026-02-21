@@ -1,0 +1,34 @@
+{
+  "name": "hanzo-templates",
+  "version": "1.0.0",
+  "description": "Hanzo Templates - Premium UI/UX template collection monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter gallery dev",
+    "build": "pnpm --filter gallery build",
+    "start": "pnpm --filter gallery start",
+    "install:all": "pnpm install -r",
+    "clean": "pnpm -r exec rm -rf node_modules && rm -rf node_modules",
+    "gallery:dev": "pnpm --filter gallery dev",
+    "gallery:build": "pnpm --filter gallery build",
+    "gallery:start": "pnpm --filter gallery start",
+    "capture": "node capture-screenshots.js",
+    "capture:quick": "node capture-screenshots-quick.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "puppeteer": "^24.25.0",
+    "serve-handler": "^6.1.6"
+  },
+  "keywords": [
+    "templates",
+    "ui",
+    "ux",
+    "nextjs",
+    "react",
+    "monorepo",
+    "pnpm-workspace"
+  ],
+  "author": "Hanzo AI",
+  "license": "UNLICENSED"
+}
