@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="templates" width="880"></p>
+
 # Hanzo AI Templates
 
 Production-ready application templates for rapid development with AI customization.
