@@ -1,71 +1,38 @@
 <p align="center"><img src=".github/hero.svg" alt="templates" width="880"></p>
 
-# Hanzo AI Templates
+# Hanzo OSS Templates
 
-Production-ready application templates for rapid development with AI customization.
+The one-click open-source catalog for Hanzo Cloud. One static build, served at two hosts:
 
-## 🚀 Quick Start
+- **templates.hanzo.ai** — the machine-readable catalog the Hanzo PaaS loads:
+  `meta.json` (the app list) + `blueprints/<id>/{template.toml,docker-compose.yml,<logo>}` per app.
+- **oss.hanzo.ai** — the human explorer/launcher (`index.html`): search + filter the
+  catalog and one-click deploy.
 
-```bash
-# Browse templates
-open https://templates.hanzo.ai
+100% static, served by **hanzoai/static** under a strict CSP (`script-src 'self'` — no
+inline scripts). No build step, no server.
 
-# Clone a specific template
-git clone --recurse-submodules git@github.com:hanzo-apps/template-blog.git
+## One-click deploy
 
-# Or use submodules
-git clone --recurse-submodules git@github.com:hanzoai/templates.git
-cd templates/apps/blog
-pnpm install && pnpm dev
-```
+Each card's Deploy CTA deep-links the PaaS:
 
-## 📦 Templates
+    https://platform.hanzo.ai/templates?deploy=<id>
 
-All templates are organized in `/apps` as git submodules. Each template:
-- ✅ Production ready
-- ✅ Fully customizable with AI
-- ✅ Modern tech stack (Next.js 14+, TypeScript, Tailwind)
-- ✅ One-click deploy
-- ✅ Comprehensive documentation
+`platform.hanzo.ai/templates` reads `?deploy=<id>`, matches it against this same
+`meta.json`, and opens the deploy dialog (PaaS `pages/dashboard/templates.tsx`).
 
-## 🎨 Gallery
+## Layout
 
-Visit `/gallery` for a visual showcase with:
-- Live previews
-- Screenshots
-- Tech stack info
-- Deploy buttons
+    index.html        the explorer — hero, search, category filter, card grid
+    css/oss.css       theme-aware (light/dark), responsive styles
+    js/oss.js         reads meta.json; renders, searches + filters the catalog
+    js/theme.js       light/dark bootstrap + toggle (pre-paint, no FOUC)
+    meta.json         the catalog: array of {id,name,description,version,logo,links,tags}
+    blueprints/<id>/  per-app deploy spec + logo (the PaaS loader reads these)
 
-## 🛠️ Tech Stack
+## Data contract — do not break
 
-- **Frontend**: Next.js 14+ (App Router), React 18+
-- **Styling**: Tailwind CSS, Hanzo UI components
-- **TypeScript**: Full type safety
-- **Package Manager**: pnpm (recommended)
-
-## 📝 Structure
-
-```
-templates/
-├── apps/           # All templates as submodules
-│   ├── blog/
-│   ├── portfolio/
-│   ├── saas/
-│   └── ...60+ more
-├── gallery/        # Templates showcase app
-└── README.md
-```
-
-## 🔒 Private Repository
-
-This is a private repository. All individual templates are also private under the hanzo-apps organization.
-
-## 📖 Documentation
-
-- [Template Development Guide](./docs/development.md)
-- [Deployment Guide](./docs/deployment.md)
-- [Customization Guide](./docs/customization.md)
-
-## 🤝 Contributing
-
-Internal use only. Contact the Hanzo AI team for access.
+The PaaS loader (`platform` → `pkg/platform/src/templates/github.ts`) fetches `meta.json`
+and `blueprints/<id>/{template.toml,docker-compose.yml}` from this origin. Keep the
+`meta.json` shape and the `blueprints/<id>/` paths stable — the human UI only **reads**
+them to render the gallery.
