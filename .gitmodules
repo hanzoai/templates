@@ -1,204 +1,204 @@
 [submodule "apps/hygge"]
 	path = apps/hygge
-	url = git@github.com:hanzo-apps/template-hygge.git
+	url = git@github.com:hanzo-templates/hygge.git
 [submodule "apps/gleam"]
 	path = apps/gleam
-	url = git@github.com:hanzo-apps/template-gleam.git
+	url = git@github.com:hanzo-templates/gleam.git
 [submodule "apps/gallery2"]
 	path = apps/gallery2
-	url = git@github.com:hanzo-apps/template-gallery2.git
+	url = git@github.com:hanzo-templates/gallery2.git
 [submodule "apps/gallery"]
 	path = apps/gallery
-	url = git@github.com:hanzo-apps/template-gallery.git
+	url = git@github.com:hanzo-templates/gallery.git
 [submodule "apps/forge"]
 	path = apps/forge
-	url = git@github.com:hanzo-apps/template-forge.git
+	url = git@github.com:hanzo-templates/forge.git
 [submodule "apps/folio"]
 	path = apps/folio
-	url = git@github.com:hanzo-apps/template-folio.git
+	url = git@github.com:hanzo-templates/folio.git
 [submodule "apps/edge"]
 	path = apps/edge
-	url = git@github.com:hanzo-apps/template-edge.git
+	url = git@github.com:hanzo-templates/edge.git
 [submodule "apps/drive"]
 	path = apps/drive
-	url = git@github.com:hanzo-apps/template-drive.git
+	url = git@github.com:hanzo-templates/drive.git
 [submodule "apps/construct"]
 	path = apps/construct
-	url = git@github.com:hanzo-apps/template-construct.git
+	url = git@github.com:hanzo-templates/construct.git
 [submodule "apps/circle"]
 	path = apps/circle
-	url = git@github.com:hanzo-apps/template-circle.git
+	url = git@github.com:hanzo-templates/circle.git
 [submodule "apps/cipher"]
 	path = apps/cipher
-	url = git@github.com:hanzo-apps/template-cipher.git
+	url = git@github.com:hanzo-templates/cipher.git
 [submodule "apps/cipher-react"]
 	path = apps/cipher-react
-	url = git@github.com:hanzo-apps/template-cipher-react.git
+	url = git@github.com:hanzo-templates/cipher-react.git
 [submodule "apps/cipher-html"]
 	path = apps/cipher-html
-	url = git@github.com:hanzo-apps/template-cipher-html.git
+	url = git@github.com:hanzo-templates/cipher-html.git
 [submodule "apps/chat-template"]
 	path = apps/chat-template
-	url = git@github.com:hanzo-apps/template-chat-template.git
+	url = git@github.com:hanzo-templates/chat-template.git
 [submodule "apps/catalyst"]
 	path = apps/catalyst
-	url = git@github.com:hanzo-apps/template-catalyst.git
+	url = git@github.com:hanzo-templates/catalyst.git
 [submodule "apps/canvas"]
 	path = apps/canvas
-	url = git@github.com:hanzo-apps/template-canvas.git
+	url = git@github.com:hanzo-templates/canvas.git
 [submodule "apps/blog-platform"]
 	path = apps/blog-platform
-	url = git@github.com:hanzo-apps/template-blog-platform.git
+	url = git@github.com:hanzo-templates/blog-platform.git
 [submodule "apps/blocks"]
 	path = apps/blocks
-	url = git@github.com:hanzo-apps/template-blocks.git
+	url = git@github.com:hanzo-templates/blocks.git
 [submodule "apps/beta"]
 	path = apps/beta
-	url = git@github.com:hanzo-apps/template-beta.git
+	url = git@github.com:hanzo-templates/beta.git
 [submodule "apps/analytics-dashboard"]
 	path = apps/analytics-dashboard
-	url = git@github.com:hanzo-apps/template-analytics-dashboard.git
+	url = git@github.com:hanzo-templates/analytics-dashboard.git
 [submodule "apps/ai-chat-interface"]
 	path = apps/ai-chat-interface
-	url = git@github.com:hanzo-apps/template-ai-chat-interface.git
+	url = git@github.com:hanzo-templates/ai-chat-interface.git
 [submodule "apps/video-streaming"]
 	path = apps/video-streaming
-	url = git@github.com:hanzo-apps/template-video-streaming.git
+	url = git@github.com:hanzo-templates/video-streaming.git
 [submodule "apps/social-feed"]
 	path = apps/social-feed
-	url = git@github.com:hanzo-apps/template-social-feed.git
+	url = git@github.com:hanzo-templates/social-feed.git
 [submodule "apps/markdown-editor"]
 	path = apps/markdown-editor
-	url = git@github.com:hanzo-apps/template-markdown-editor.git
+	url = git@github.com:hanzo-templates/markdown-editor.git
 [submodule "apps/kanban-board"]
 	path = apps/kanban-board
-	url = git@github.com:hanzo-apps/template-kanban-board.git
+	url = git@github.com:hanzo-templates/kanban-board.git
 [submodule "apps/crypto-portfolio"]
 	path = apps/crypto-portfolio
-	url = git@github.com:hanzo-apps/template-crypto-portfolio.git
+	url = git@github.com:hanzo-templates/crypto-portfolio.git
 [submodule "apps/ecommerce-storefront"]
 	path = apps/ecommerce-storefront
-	url = git@github.com:hanzo-apps/template-ecommerce-storefront.git
+	url = git@github.com:hanzo-templates/ecommerce-storefront.git
 [submodule "apps/changelog"]
 	path = apps/changelog
-	url = git@github.com:hanzo-apps/template-changelog.git
+	url = git@github.com:hanzo-templates/changelog.git
 [submodule "apps/portfolio"]
 	path = apps/portfolio
-	url = git@github.com:hanzo-apps/template-portfolio.git
+	url = git@github.com:hanzo-templates/portfolio.git
 [submodule "apps/blog"]
 	path = apps/blog
-	url = git@github.com:hanzo-apps/template-blog.git
+	url = git@github.com:hanzo-templates/blog.git
 [submodule "apps/startup"]
 	path = apps/startup
-	url = git@github.com:hanzo-apps/template-startup.git
+	url = git@github.com:hanzo-templates/startup.git
 [submodule "apps/mobile"]
 	path = apps/mobile
-	url = git@github.com:hanzo-apps/template-mobile.git
+	url = git@github.com:hanzo-templates/mobile.git
 [submodule "apps/devtool"]
 	path = apps/devtool
-	url = git@github.com:hanzo-apps/template-devtool.git
+	url = git@github.com:hanzo-templates/devtool.git
 [submodule "apps/analytics"]
 	path = apps/analytics
-	url = git@github.com:hanzo-apps/template-analytics.git
+	url = git@github.com:hanzo-templates/analytics.git
 [submodule "apps/saas"]
 	path = apps/saas
-	url = git@github.com:hanzo-apps/template-saas.git
+	url = git@github.com:hanzo-templates/saas.git
 [submodule "apps/unity"]
 	path = apps/unity
-	url = git@github.com:hanzo-apps/template-unity.git
+	url = git@github.com:hanzo-templates/unity.git
 [submodule "apps/mosaic"]
 	path = apps/mosaic
-	url = git@github.com:hanzo-apps/template-mosaic.git
+	url = git@github.com:hanzo-templates/mosaic.git
 [submodule "apps/matrix"]
 	path = apps/matrix
-	url = git@github.com:hanzo-apps/template-matrix.git
+	url = git@github.com:hanzo-templates/matrix.git
 [submodule "apps/deploy"]
 	path = apps/deploy
-	url = git@github.com:hanzo-apps/template-deploy.git
+	url = git@github.com:hanzo-templates/deploy.git
 [submodule "apps/vault"]
 	path = apps/vault
-	url = git@github.com:hanzo-apps/template-vault.git
+	url = git@github.com:hanzo-templates/vault.git
 [submodule "apps/unfixed"]
 	path = apps/unfixed
-	url = git@github.com:hanzo-apps/template-unfixed.git
+	url = git@github.com:hanzo-templates/unfixed.git
 [submodule "apps/trustify"]
 	path = apps/trustify
-	url = git@github.com:hanzo-apps/template-trustify.git
+	url = git@github.com:hanzo-templates/trustify.git
 [submodule "apps/temple"]
 	path = apps/temple
-	url = git@github.com:hanzo-apps/template-temple.git
+	url = git@github.com:hanzo-templates/temple.git
 [submodule "apps/synapse"]
 	path = apps/synapse
-	url = git@github.com:hanzo-apps/template-synapse.git
+	url = git@github.com:hanzo-templates/synapse.git
 [submodule "apps/studio"]
 	path = apps/studio
-	url = git@github.com:hanzo-apps/template-studio.git
+	url = git@github.com:hanzo-templates/studio.git
 [submodule "apps/solo"]
 	path = apps/solo
-	url = git@github.com:hanzo-apps/template-solo.git
+	url = git@github.com:hanzo-templates/solo.git
 [submodule "apps/soar"]
 	path = apps/soar
-	url = git@github.com:hanzo-apps/template-soar.git
+	url = git@github.com:hanzo-templates/soar.git
 [submodule "apps/serif"]
 	path = apps/serif
-	url = git@github.com:hanzo-apps/template-serif.git
+	url = git@github.com:hanzo-templates/serif.git
 [submodule "apps/savor"]
 	path = apps/savor
-	url = git@github.com:hanzo-apps/template-savor.git
+	url = git@github.com:hanzo-templates/savor.git
 [submodule "apps/saas-landing"]
 	path = apps/saas-landing
-	url = git@github.com:hanzo-apps/template-saas-landing.git
+	url = git@github.com:hanzo-templates/saas-landing.git
 [submodule "apps/ride"]
 	path = apps/ride
-	url = git@github.com:hanzo-apps/template-ride.git
+	url = git@github.com:hanzo-templates/ride.git
 [submodule "apps/restoq"]
 	path = apps/restoq
-	url = git@github.com:hanzo-apps/template-restoq.git
+	url = git@github.com:hanzo-templates/restoq.git
 [submodule "apps/quantum"]
 	path = apps/quantum
-	url = git@github.com:hanzo-apps/template-quantum.git
+	url = git@github.com:hanzo-templates/quantum.git
 [submodule "apps/prism-react"]
 	path = apps/prism-react
-	url = git@github.com:hanzo-apps/template-prism-react.git
+	url = git@github.com:hanzo-templates/prism-react.git
 [submodule "apps/prism"]
 	path = apps/prism
-	url = git@github.com:hanzo-apps/template-prism.git
+	url = git@github.com:hanzo-templates/prism.git
 [submodule "apps/pixel"]
 	path = apps/pixel
-	url = git@github.com:hanzo-apps/template-pixel.git
+	url = git@github.com:hanzo-templates/pixel.git
 [submodule "apps/oasis"]
 	path = apps/oasis
-	url = git@github.com:hanzo-apps/template-oasis.git
+	url = git@github.com:hanzo-templates/oasis.git
 [submodule "apps/nextjs-template"]
 	path = apps/nextjs-template
-	url = git@github.com:hanzo-apps/template-nextjs-template.git
+	url = git@github.com:hanzo-templates/nextjs-template.git
 [submodule "apps/monorepo-next"]
 	path = apps/monorepo-next
-	url = git@github.com:hanzo-apps/template-monorepo-next.git
+	url = git@github.com:hanzo-templates/monorepo-next.git
 [submodule "apps/mistmusk"]
 	path = apps/mistmusk
-	url = git@github.com:hanzo-apps/template-mistmusk.git
+	url = git@github.com:hanzo-templates/mistmusk.git
 [submodule "apps/mint"]
 	path = apps/mint
-	url = git@github.com:hanzo-apps/template-mint.git
+	url = git@github.com:hanzo-templates/mint.git
 [submodule "apps/metrics"]
 	path = apps/metrics
-	url = git@github.com:hanzo-apps/template-metrics.git
+	url = git@github.com:hanzo-templates/metrics.git
 [submodule "apps/marige"]
 	path = apps/marige
-	url = git@github.com:hanzo-apps/template-marige.git
+	url = git@github.com:hanzo-templates/marige.git
 [submodule "apps/lyniq"]
 	path = apps/lyniq
-	url = git@github.com:hanzo-apps/template-lyniq.git
+	url = git@github.com:hanzo-templates/lyniq.git
 [submodule "apps/loop"]
 	path = apps/loop
-	url = git@github.com:hanzo-apps/template-loop.git
+	url = git@github.com:hanzo-templates/loop.git
 [submodule "apps/launch"]
 	path = apps/launch
-	url = git@github.com:hanzo-apps/template-launch.git
+	url = git@github.com:hanzo-templates/launch.git
 [submodule "apps/kinetic"]
 	path = apps/kinetic
-	url = git@github.com:hanzo-apps/template-kinetic.git
+	url = git@github.com:hanzo-templates/kinetic.git
 [submodule "apps/jobfinder"]
 	path = apps/jobfinder
-	url = git@github.com:hanzo-apps/template-jobfinder.git
+	url = git@github.com:hanzo-templates/jobfinder.git
