@@ -2,7 +2,6 @@
 
 ## Font Families
 
-### Primary Typeface: Inter
 
 **Purpose**: Primary typeface for all UI, web, and marketing materials
 
@@ -94,7 +93,6 @@ Based on 12pt base size:
 
 ## Type Pairing
 
-### Primary Pairing: Inter + JetBrains Mono
 
 **For**: Web, applications, documentation
 
@@ -106,13 +104,13 @@ Code: JetBrains Mono 14px
 
 **Example**:
 ```html
-<h1 style="font-family: Inter; font-weight: 700; font-size: 32px;">
+<h1 style="font-family: Zen, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-weight: 700; font-size: 32px;">
   Hamiltonian Market Maker
 </h1>
-<p style="font-family: Inter; font-weight: 400; font-size: 16px;">
+<p style="font-family: Zen, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-weight: 400; font-size: 16px;">
   A novel AMM design for heterogeneous compute resources.
 </p>
-<code style="font-family: 'JetBrains Mono'; font-size: 14px;">
+<code style="font-family: Zen Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; font-size: 14px;">
   const hmm = new HamiltonianMarketMaker();
 </code>
 ```
@@ -242,7 +240,7 @@ body {
 **Navigation**:
 ```css
 .nav-link {
-  font-family: Inter;
+  font-family: Zen, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -252,7 +250,7 @@ body {
 **Hero Section**:
 ```css
 .hero-title {
-  font-family: Inter;
+  font-family: Zen, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 800;
   font-size: 64px;
   line-height: 1.125;
@@ -260,7 +258,7 @@ body {
 }
 
 .hero-subtitle {
-  font-family: Inter;
+  font-family: Zen, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.6;
@@ -270,7 +268,7 @@ body {
 **Body Content**:
 ```css
 .content p {
-  font-family: Inter;
+  font-family: Zen, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.625;
@@ -281,7 +279,7 @@ body {
 **Code Blocks**:
 ```css
 pre code {
-  font-family: 'JetBrains Mono';
+  font-family: Zen Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.6;
@@ -298,9 +296,7 @@ pre code {
 
 **Example Structure**:
 ```markdown
-# API Reference (Inter Bold 36px)
 
-## Authentication (Inter Bold 28px)
 
 The API uses Bearer tokens for authentication. (Inter Regular 16px)
 
@@ -354,41 +350,26 @@ const response = await fetch('/api/v1/auth', {
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="" rel="stylesheet">
 ```
 
 **Self-Hosted** (recommended for performance):
 ```css
-@font-face {
-  font-family: 'Inter';
-  src: url('/fonts/Inter-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('/fonts/Inter-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
 ```
 
 **CSS Variables**:
 ```css
 :root {
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-mono: 'JetBrains Mono', 'Menlo', 'Monaco', 'Courier New', monospace;
+  --font-sans: Zen, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: Zen Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: Zen, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 code, pre {
-  font-family: var(--font-mono);
+  font-family: Zen Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 }
 ```
 
