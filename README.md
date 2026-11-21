@@ -1,5 +1,7 @@
 # Hanzo Templates Repository
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/templates&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/hanzoai/templates&ref=main&action=edit)
+
 > **Premium UI/UX Template Collection**
 > **Last Updated**: October 20, 2025
 > **Status**: 100% Complete - All 66 Templates Documented ✅
